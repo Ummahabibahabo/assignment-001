@@ -116,6 +116,7 @@ nav ul {
     align-items: center;
     justify-content: space-between;
     gap: 26px;
+    flex: 1;
 }
 
 .category-card-one {
@@ -137,4 +138,51 @@ nav ul {
 .category-image-one {
     max-width: 68.21px;
     height: 90px;
+}
+
+
+
+/* Shoes-catagory */
+.shoes-section-container {
+    background: rgb(229, 229, 229);
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+.shoes-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.shoes-1 {
+
+    width: 360px;
+    height: 496px;
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+    gap: 24px;
+    border-radius: 10px;
+    text-align: center;
+
+
+
+}
+
+.shoes-card-one {
+    max-width: 297px;
+    height: 207px;
+}
+
+.shoes-card-two {
+    max-width: 297px;
+    height: 207px;
+}
+
+.shoes-card-three {
+    max-width: 297px;
+    height: 207px;
 }

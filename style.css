@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.nav-picture {
+    color: rgb(31, 31, 31);
+    font-weight: 500px;
+    font-size: 34.86px;
+}
+
+.nav-parent {
+    position: relative;
+}
+
+.nav-parent input {
+    border-radius: 66px;
+    background-color: rgb(241, 241, 241);
+    max-width: 508.94px;
+    padding: 12px 30px;
+    border: none;
+}
+
+.nav-parent i {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    color: rgb(186, 186, 186);
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
+
+nav ul {
+    font-weight: 500px;
+    font-size: 16px;
+    gap: 24px;
+    display: flex;
+}
+
+
+/* banner-style */
+
+
+.banner {
+    padding: 24px;
+    gap: 4px;
+    background-color: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.banner-title {
+    font-weight: 700px;
+    font-size: 56px;
+    color: rgb(31, 31, 31);
+}
+
+.banner-description {
+    font-weight: 400px;
+    font-family: 16px;
+    color: rgb(78, 78, 78);
+    width: 456px;
+}
+
+.banner-price {
+    font-weight: bolder;
+    font-size: 41px;
+    color: rgb(255, 19, 111);
+}
+
+.btn-all {
+    background-color: rgb(255, 88, 155);
+    color: white;
+    font-weight: 500px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.banner-picture {
+    min-width: 402px;
+    height: 378px;
+}

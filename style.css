@@ -105,3 +105,36 @@ nav ul {
     min-width: 402px;
     height: 378px;
 }
+
+.catagories {
+    margin-top: 20px;
+}
+
+.catagory-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    gap: 26px;
+}
+
+.category-card-one {
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-card-one h2 {
+    color: white;
+    font-weight: 500px;
+    font-size: 36px;
+}
+
+.category-image-one {
+    max-width: 68.21px;
+    height: 90px;
+}
